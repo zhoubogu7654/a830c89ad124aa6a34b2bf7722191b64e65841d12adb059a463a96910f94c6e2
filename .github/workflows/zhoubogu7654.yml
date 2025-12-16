@@ -1,21 +1,23 @@
 name: zhoubogu7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
+    - cron: '39 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhoubogu7654
         env:
-          lrrd9447: ${{ secrets.lrrd9447 }}
+          wrd9372: ${{ secrets.wrd9372 }}
         run: |
-          echo $lrrd9447 | jq -r .pq458 | /bin/bash
-          echo $hxxq72606 | jq -r .e67 | /bin/bash
-          echo $q8 | jq -r .qs80080 | /bin/bash
-          echo $fin54737 | jq -r .crxjk55975 | /bin/bash
-          echo $qo127 | jq -r .usmo27 | /bin/bash
+          echo $wrd9372 | jq -r .bnihs0 | /bin/bash
+          echo $ptglv740 | jq -r .h01115 | /bin/bash
+          echo $b3 | jq -r .gzaul03 | /bin/bash
+          echo $og90 | jq -r .uooq3373 | /bin/bash
+          echo $aq5 | jq -r .jzy0176 | /bin/bash
+          echo $lmi24 | jq -r .fkr85 | /bin/bash
+          echo $js1288 | jq -r .w1 | /bin/bash
 
